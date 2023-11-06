@@ -1,0 +1,365 @@
+.container{
+    margin: 0 auto;
+    width: 1080px;
+}
+.navbar {
+    display: flex;
+    background-color: #be0c2c;
+    padding: 10px 20px;
+}
+.nav-items{
+    align-items: center;
+    justify-content: center;
+}
+.nav-items a{
+    font-size: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Cormorant', serif;
+   
+}
+h1,h2,h3
+h4,h5,h6{
+    margin: 0;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+img{
+    max-width: 100%;
+}
+.flex{
+    display: flex;
+}
+
+.mt-20{
+    margin-top: 50px;
+}
+.unicorn-logo{
+    width: 90px;
+}
+.nav-items a:hover{
+    color:pink;
+    margin-bottom: 5px;
+    transition-duration: 0.15s;
+    
+}
+.nav-items button:hover{
+    background-color: #be0c20;
+    color: #fff;
+    transition-duration: 0.15s;
+    
+}
+.Primary-btn{
+   padding: 15px 55px;
+    font-size: 16px;
+    background-color:#fff;
+    font-weight: 900;
+    color: #be0c2c;
+    border: 0;
+    text-transform: uppercase;
+
+   
+
+}
+.view-all-btn:hover{
+    color: #be0c20;
+    background-color: #fff;
+    animation: shake 0.5s ease;
+    }
+    
+ @keyframes shake {
+        0% { transform: translateX(0); }
+        20% { transform: translateX(-5px); }
+        40% { transform: translateX(5px); }
+        60% { transform: translateX(-5px); }
+        80% { transform: translateX(5px); }
+        100% { transform: translateX(0); }
+}
+
+.w20{
+    width: 20%;
+}
+.w80{
+    width: 80%;
+}
+.nav-items a{
+    width: 25%; 
+}
+
+.w30{
+    width: 30%;
+}
+.text-center h5{
+    font-weight: 700;
+    font-size: 25px;
+    color:#69ad36;
+    margin-bottom: 30px;
+   
+}
+.mr-35{
+    margin-right: 35px;
+}
+.ml-35{
+    margin-left: 35px;
+}
+.text-center h4{
+    font-weight: 900;
+    color: #be0c20;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: 'Cormorant', serif;
+    text-transform: uppercase;
+}
+.text-center button{
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 13px 33px;
+    background-color: #be0c20;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+    position: relative;
+    bottom: 10px;
+    font-family: 'Cormorant', serif;
+    border: none;
+   
+
+}
+*{
+    box-sizing: border-box;
+}
+.w60{
+    width: 60%;
+}
+.w40{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card{
+    width: 25%;
+    margin: 10px;
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+}
+.view-all-btn{
+    padding: 20px 60px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #be0c20;
+    color: #fff;
+
+
+}
+.bakery-info{
+    color: #545454;
+    line-height: 1.5em;
+    font-size: 22px;
+    margin-top: 40px;
+}
+h1{
+    font-family: 'Cormorant', serif;
+    color: #be0c20;
+    font-weight: 900;
+    font-size: 37px;
+    margin-top: 20px;
+}
+.main-heading h4{
+    font-size: 25px;
+    font-family: auto;
+    font-weight: 400;
+}
+footer{
+    background-color: #be0c20;
+    color: #fff;
+}
+h6{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+h4{
+    font-size: 25px;
+}
+footer p{
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 10px;
+    margin: 0;
+}
+footer img{
+    margin-top: 5px;
+}
+footer h2{
+    display: inline;
+    font-size: 40px;
+    padding-bottom: 10px;
+
+}
+.social-icons img{
+    max-width: 70% !important;
+}
+.copyright{
+    padding: 20px;
+    font-size: 18px;
+}
+.view-all{
+    text-align: center;
+}
+
+.view-all-btn {
+    transition: transform 0.3s ease;
+}
+
+/*Hide skip links */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    color: #000;
+    background-color: #fff;
+}
+
+.card button {
+    padding: 13px 33px;
+    font-size: 13px;
+    background-color: #be0c20;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+    position: relative;
+    bottom: 10px;
+    font-family: 'Cormorant', serif;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #fff;
+    color: #be0c20;
+}
+
+/* Add animation to buttons */
+.card button {
+    padding: 13px 33px;
+    font-size: 13px;
+    background-color: #be0c20;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+    position: relative;
+    bottom: 10px;
+    font-family: 'Cormorant', serif;
+    border: none;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease;
+}
+
+.card button:hover {
+    background-color: #fff;
+    color: #be0c20;
+    animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px); 
+    }
+}
+
+/* Contact Form Styles */
+#contact {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+#contact input[type="submit"] {
+    background-color: #be0c20;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #333;
+}
+
+/* Optional: Add styles for form success or error messages */
+#contact .success-message {
+    color: #4CAF50;
+    margin: 10px 0;
+}
+
+#contact .error-message {
+    color: #f44336;
+    margin: 10px 0;
+}
