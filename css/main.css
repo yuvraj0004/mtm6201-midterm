@@ -70,23 +70,6 @@ img{
     color: #be0c2c;
     border: 0;
     text-transform: uppercase;
-
-   
-
-}
-.view-all-btn:hover{
-    color: #be0c20;
-    background-color: #fff;
-    animation: shake 0.5s ease;
-    }
-    
- @keyframes shake {
-        0% { transform: translateX(0); }
-        20% { transform: translateX(-5px); }
-        40% { transform: translateX(5px); }
-        60% { transform: translateX(-5px); }
-        80% { transform: translateX(5px); }
-        100% { transform: translateX(0); }
 }
 
 .w20{
@@ -167,12 +150,32 @@ img{
 
 
 }
+
+/* adding shake animation to view all button */
+.view-all-btn:hover{
+    color: #be0c20;
+    background-color: #fff;
+    animation: shake 0.5s ease;
+    }
+    
+    /* shake animation */
+ @keyframes shake {
+        0% { transform: translateX(0); }
+        20% { transform: translateX(-5px); }
+        40% { transform: translateX(5px); }
+        60% { transform: translateX(-5px); }
+        80% { transform: translateX(5px); }
+        100% { transform: translateX(0); }
+}
+
 .bakery-info{
     color: #545454;
     line-height: 1.5em;
     font-size: 22px;
     margin-top: 40px;
 }
+
+/* designing h1 */
 h1{
     font-family: 'Cormorant', serif;
     color: #be0c20;
@@ -185,6 +188,8 @@ h1{
     font-family: auto;
     font-weight: 400;
 }
+
+/* adding css to the footer data */
 footer{
     background-color: #be0c20;
     color: #fff;
@@ -285,6 +290,7 @@ footer h2{
     animation: bounce 0.5s ease;
 }
 
+/* adding bounce animation */
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
@@ -334,9 +340,10 @@ footer h2{
 }
 
 #contact textarea {
-    resize: vertical; /* Allow vertical resizing of the textarea */
+    resize: vertical;
 }
 
+/* adding contact us page material */
 #contact input[type="submit"] {
     background-color: #be0c20;
     color: #fff;
@@ -353,7 +360,6 @@ footer h2{
     background-color: #333;
 }
 
-/* Optional: Add styles for form success or error messages */
 #contact .success-message {
     color: #4CAF50;
     margin: 10px 0;
@@ -362,4 +368,10 @@ footer h2{
 #contact .error-message {
     color: #f44336;
     margin: 10px 0;
+}
+
+/* add hover animation in main content photos */
+#main-content img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
