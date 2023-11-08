@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body style="font-family: 'Cormorant', serif;">
- 
+   
     <div class="navbar mobile-nav">
         <div class=" w20 flex mobile-nav">
            <a href="index.html"> <img class="unicorn-logo" src="images/unicorn.logo.png" alt="#!"></a>
         </div>
         <div class="nav-items w80 flex mobile-nav">
-            <a href="viewall.html">Home</a>
+            <a href="home.html">Home</a>
             <a href="menu.html">Menu</a>
             <a href="aboutus.html">About Us</a>
             <a href="contactus.html">Contact Us</a>
@@ -85,29 +85,103 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Contact Us</h1>
-    </header>
     <div class="container">
-        <form action="#">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <input type="submit" value="Submit">
-        </form>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Place Your Order</title>
+            <style>
+                body {
+                    background-color: #fff;
+                    font-family: Arial, sans-serif;
+                }
+        
+                header {
+                    background-color: #be0c20;
+                    color: #fff;
+                    text-align: center;
+                    padding: 20px;
+                }
+        
+                h1 {
+                    margin: 0;
+                    font-size: 36px;
+                    color: #fff;
+                }
+        
+                .container {
+                    max-width: 800px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+        
+                label {
+                    display: block;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+        
+                input[type="text"], input[type="email"], textarea {
+                    width: 100%;
+                    padding: 10px;
+                    margin-bottom: 20px;
+                    border: 1px solid #be0c20;
+                    border-radius: 5px;
+                    font-size: 16px;
+                }
+        
+                input[type="submit"] {
+                    background-color: #be0c20;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 18px;
+                    cursor: pointer;
+                }
+        
+                input[type="submit"]:hover {
+                    background-color: #ff4d71;
+                }
+        
+                .order-form {
+                    background-color: #fff;
+                    padding: 20px;
+                    border: 1px solid #be0c20;
+                    border-radius: 5px;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <h1>Place Your Order</h1>
+            </header>
+            <div class="container">
+                <form class="order-form" action="#">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="order">Order Details</label>
+                    <textarea id="order" name="order" rows="4" required></textarea>
+        
+                    <input type="submit" value="Submit Order">
+                </form>
+            </div>
+        </body>
+        </html>
+        
     </div>
     <footer>
         <div class="container">
         <div class="flex mobile-flex tab-flex">
             <div class="w40 tab-100">
                 <div class="footer-widget">
-                    <a href=""> <img class="unicorn-logo" src="images/unicorn.logo.png" alt="#!"></a>
+                    <a href=""> <img class="unicorn-logo" src="unicorn.logo.png" alt="#!"></a>
                     <h2 class="mob-h2"  >Unicorn Bakery</h2>
                     <div class="footer-para">
                         <p>
@@ -177,7 +251,7 @@
                 <h6 class="mail-info">unicornbakery@gmail.com</h6>
                 <h6 class="mail-info">yuvrajothi@gmail.com</h6>
                 <br>
-                <h6 class="address-info">Address : 2004 Banff Ave #K1V7X7, Ottawa , ON , Canada. </h6>
+                <h6 class="address-info">Address : 2004 Banff Ave #K1v7X7, Ottawa , ON , Canada. </h6>
             </div>
         </div>
     </div>
