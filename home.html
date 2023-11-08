@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,34 +8,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    
-
 </head>
-
 <body>
-    <a class="skip-link" href="#main-content">Skip to Main Content</a>
-    <a class="skip-link" href="#footer">Skip to Footer</a>
+    <!-- Adding Skip Links -->
+    <a class="skip-link" href="#main-content" aria-label="Skip to main content">Skip to Main Content</a>
+    <a class="skip-link" href="#footer" aria-label="Skip to footer">Skip to Footer</a>
 
     <div class="navbar mobile-nav">
-        <div class=" w20 flex mobile-nav">
-           <a href="index.html"> <img class="unicorn-logo" src="images/unicorn.logo.png" alt="#!"></a>
+        <div class="w20 flex mobile-nav">
+            <a href="index.html">
+                <img class="unicorn-logo" src="images/unicorn.logo.png" alt="#!" aria-label="Unicorn Bakery Logo">
+            </a>
         </div>
+        <!-- Adding different html files such as a navigation links -->
         <div class="nav-items w80 flex mobile-nav">
-            <a href="home.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="contactus.html">Contact Us</a>
-
-           <a href="order.html"> <button class="Primary-btn">Order</button></a>
+            <a href="home.html" aria-label="Home">Home</a>
+            <a href="menu.html" aria-label="Menu">Menu</a>
+            <a href="aboutus.html" aria-label="About Us">About Us</a>
+            <a href="contactus.html" aria-label="Contact Us">Contact Us</a>
+            <a href="order.html">
+                <button class="Primary-btn" aria-label="Order Now">Order</button>
+            </a>
         </div>
     </div>
     <section>
         <div class="container">
-            <div class="flex  mobile-flex">
+            <div class="flex mobile-flex">
                 <div class="w40 mobile-flex">
-                    <div class="main-heading ">
+                    <div class="main-heading">
                         <h4>
-                            <i> flavour for every mood.... </i>
+                            <i>flavour for every mood....</i>
                         </h4>
                         <h1>
                             UNICORN BAKERY PROFESSIONAL BAKERS FROM CANADA
@@ -46,16 +47,17 @@
                             Magic and Love.
                             Discover a World of Whimsical Treats
                             that Bring Happiness and Pleasure
-                            with Every Bite.</p>
+                            with Every Bite.
+                        </p>
                     </div>
                     <div>
-                        <button class="view-all-btn">
+                        <button class="view-all-btn" aria-label="Order Now">
                             ORDER NOW!
                         </button>
                     </div>
                 </div>
                 <div class="w60">
-                    <img src="images/nik-banner-homepage.jpg" alt="!#">
+                    <img src="images/nik-banner-homepage.jpg" alt="!#" aria-label="Unicorn Bakery Banner">
                 </div>
             </div>
         </div>
@@ -74,6 +76,7 @@
                     <div class="text-center">
                         <h4>Strawberry Muffins</h4>
                         <h5>19.99$</h5>
+                        <!-- Connecting Order Navigation Link file -->
                         <a href="order.html"><button>ADD TO CART</button></a>
                     </div>
                 </div>
@@ -99,12 +102,12 @@
                     </div>
                 </div>
             </div>
-        </div>
-
+        </div>        
         </section>
        
         <br>
         </br>
+        <!-- Adding view button -->
         <div class="view-all">
             <a href="viewall.html"> <button class="view-all-btn">
                     View all
@@ -125,6 +128,7 @@
         
 
         <footer>
+            <!-- Adding footer content7 -->
             <div class="container">
             <div class="flex mobile-flex tab-flex">
                 <div class="w40 tab-100">
@@ -192,7 +196,7 @@
                     <h4>
                         Contact Us
                     </h4>
-
+<!--Contact information  -->
                     <h6 class="Contact-info"> +1(613) 793-1003</h6>
                     <h6 class="Contact-info">+1 438 483 1777</h6>
                     <br>
@@ -206,6 +210,7 @@
     <hr>
     </hr>
     <div class="copyright text-center">
+        <!-- Adding Copyright tag -->
         Copyright 2023 Unicorn Bakery | Design By Yuvraj Othi
     </div>
 
